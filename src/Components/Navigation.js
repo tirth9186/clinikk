@@ -2,15 +2,18 @@ import React from 'react';
 import SearchField from "react-search-field";
 import NotificationBadge from 'react-notification-badge';
 import {Effect} from 'react-notification-badge';
-import Notification from '../../public/images/notification.jpg'
+import { BsBell } from "react-icons/bs";
 export default function Navigation(){
   return(
-    <div className="d-flex">
-        <SearchField />
-          <img src = {Notification}/>
-        <div>
-          <NotificationBadge count='2' effect={Effect.SCALE}/>
-        </div>        
+    <div className="d-flex mt-1">
+        <SearchField classNames="mr-3" />
+        <BsBell size="30px" ></BsBell>
+        <span>
+        <NotificationBadge count='1' effect={Effect.SCALE}/>  
+        </span>
+        <span>
+        
+        </span>
     </div>
   );
 }

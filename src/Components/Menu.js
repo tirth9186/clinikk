@@ -6,14 +6,14 @@ import { BsPerson,BsGear,BsFillChatSquareDotsFill,BsBoxArrowRight } from "react-
 import logo from '../../public/images/F.svg'
 
 const itemStyle={
-  'margin-top':'1vw',
-  'margin-bottom':'1vw',
+  'marginTop':'1vw',
+  'marginBottom':'1vw',
   'color':'white'
 }
 
 export default function Menu(){
   return(
-    <div className="mt-1 rounded-1 d-flex flex-column align-items-center" style={{'background-color':'black'}}>
+    <div className="mt-1 rounded-1 d-flex flex-column align-items-center" style={{'backgroundColor':'black'}}>
       <img className="p-5" src={logo} alt="logo"/>
       <AiFillHome size='3vw' style={itemStyle} />
       <ImBook size='3vw' style={itemStyle}/>

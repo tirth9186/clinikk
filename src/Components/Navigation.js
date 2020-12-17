@@ -2,19 +2,19 @@ import React from 'react';
 import SearchField from "react-search-field";
 import NotificationBadge from 'react-notification-badge';
 import {Effect} from 'react-notification-badge';
-import { BsBell } from "react-icons/bs";
-import image from "./image 13.png";
+import { BsBell,BsChevronDown } from "react-icons/bs";
 export default function Navigation(){
-  const ct=0;
+  const ct=1;
   return(
     <div className="d-flex mt-1">
-        <SearchField classNames="mr-3" />
+        <SearchField classNames="mr-auto w-75 rounded" />
         <BsBell size="30px" ></BsBell>
         <span>
         <NotificationBadge count={ct} effect={Effect.SCALE}/>  
         </span>
-        <span>
-          <img src ={image}/>
+        <span className="ml-1">
+          <img style={{'borderRadius': '8px'}} src ={require("../../public/images/dp.svg")}/>
+          <BsChevronDown/>
         </span>
     </div>
   );

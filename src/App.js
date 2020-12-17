@@ -16,7 +16,7 @@ const data = [
 export default function App() {
   return (
     <div className="container-fluid row">
-      <div className="col-2">
+      <div className="col-1">
           <Menu/>
       </div>
       <div className="col-6">
@@ -37,5 +37,3 @@ export default function App() {
     </div>
   );
 }
-
-            // <CoursesList data = {data} type="All" />

@@ -3,6 +3,9 @@ import "./style.css";
 import Menu from './Components/Menu'
 import Header from './Components/Header'
 import Mycourse from './Components/Mycourse'
+
+const data = [{'imgpath':''}];
+
 export default function App() {
   return (
     <div className="container-fluid row">

@@ -2,12 +2,12 @@ import React from 'react';
 import user from '../../public/images/user.svg'
 export default function Header(){
   return(
-    <div className="row ml-4 mb-3" style={{'backgroundColor':'#f0f1f2'}}>
-      <div className="col-6 pl-5 pt-5"> 
+    <div className="row w-100 justify-content-center mb-3 backBox">
+      <div className="col-sm-6 align-self-center"> 
         <h1>Hello Josh! </h1>
-        <h6>It's goot to see you again.</h6>
+        <b1>It's good to see you again.</b1>
       </div>
-      <div className="col p-4">
+      <div className="col-sm-6">
         <img src={user} alt="User weaving hand."/>
       </div>
     </div>

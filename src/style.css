@@ -1,3 +1,54 @@
-h1, p {
+p {
   font-family: Lato;
+}
+
+h1{
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+}
+
+.disable{
+  color: #0C0B0B;
+  opacity: 0.3;
+}
+
+h3{
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+b1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bigNum{
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 102px;
+  margin-right: 5px;
+}
+h2{
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.backBox{
+  margin:5px;
+  background: #F5F5F7;
+  border-radius: 14px;
 }

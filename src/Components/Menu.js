@@ -13,7 +13,7 @@ const itemStyle={
 
 export default function Menu(){
   return(
-    <div className="mt-1 h-100 d-flex flex-column align-items-center" style={{'backgroundColor':'black','borderRadius':'24px'}}>
+    <div className="mt-1 mr-3 h-100 d-flex flex-column align-items-center" style={{'backgroundColor':'black','borderRadius':'24px'}}>
       <img className="m-4 img-fluid" src={logo} alt="logo"/>
       <AiFillHome size='3vw' style={itemStyle} />
       <ImBook size='3vw' style={itemStyle}/>

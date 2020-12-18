@@ -3,7 +3,7 @@ import clogo from '../../public/images/clogo.svg'
 import {BiChevronLeftCircle,BiChevronRightCircle} from "react-icons/bi";
 export default function Mycourse(){
   return (
-    <div className="d-flex ml-4 pt-4 pl-4" style={{'backgroundColor':'#f0f1f2'}} >
+    <div className="row pt-4 pl-4 backBox">
       <div className="mr-4">
         <img src={clogo} />
       </div>

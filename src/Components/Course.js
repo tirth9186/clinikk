@@ -3,7 +3,7 @@ import { AiFillFire } from "react-icons/ai";
 import { BsClockFill } from "react-icons/bs";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 
 const Modal = ({url}) => (
   <Popup trigger={<button className="btn btn-outline-dark mr-3">View Course</button>} modal>
